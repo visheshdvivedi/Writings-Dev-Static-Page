@@ -1,0 +1,155 @@
+body {
+    padding: 50px 220px;
+    background-color: #232830;
+
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links-container {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.navbar-links-container a {
+    color: white;
+    text-decoration: none;
+    font-family: "Recursive";
+}
+
+.navbar-links-container a:hover {
+    font-weight: bold;
+}
+
+.hero-div-container {
+    padding: 100px 125px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-div-title {
+    font-size: 60px;
+    font-style: italic;
+    color: #FF7575;
+}
+
+.hero-div-content {
+    font-size: 23px;
+    margin-top: 15px;
+}
+
+.category-listing-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.category-icon-div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.category-list-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.category-list-div span {
+    font-family: "Recursive";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    color: #909090;
+}
+
+.category-list-div span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.article-listing-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+    margin-top: 75px;
+}
+
+.article-listing {
+    background-color: white;
+    color: black;
+
+    padding: 26px;
+    border-radius: 5%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    max-width: 260px;
+    font-size: 14px;
+}
+
+.article-title {
+    font-weight: bold;
+}
+
+.article-listing > img {
+    width: auto;
+}
+
+.article-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+
+    color: black;
+}
+
+.pagination-listing-container {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    padding: 0 250px;
+}
+
+.pagination-listing-container span {
+    font-family: "Recursive";
+    font-weight: 400;
+    font-size: 20px;
+    color: #909090;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pagination-listing-container span:hover {
+    color: white;
+}
+
+.page-active {
+    color: #FF7575 !important;
+    border-top: 2px solid #FF7575;
+}
