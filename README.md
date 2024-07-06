@@ -4,6 +4,6 @@ A simple static webpage designed using HTML, CSS and JavaScript. The link for th
 
 ## Screenshots
 
-![alt text](https://github.com/visheshdvivedi/Writings-Dev-Static-Page/blob/main/screenshots/ss1.jpg?raw=true)
-![alt text](https://github.com/visheshdvivedi/Writings-Dev-Static-Page/blob/main/screenshots/ss2.jpg?raw=true)
-![alt text](https://github.com/visheshdvivedi/Writings-Dev-Static-Page/blob/main/screenshots/ss3.jpg?raw=true)
+![alt text](https://github.com/visheshdvivedi/Writings-Dev-Static-Page/blob/main/screenshots/ss1.png?raw=true)
+![alt text](https://github.com/visheshdvivedi/Writings-Dev-Static-Page/blob/main/screenshots/ss2.png?raw=true)
+![alt text](https://github.com/visheshdvivedi/Writings-Dev-Static-Page/blob/main/screenshots/ss3.png?raw=true)
